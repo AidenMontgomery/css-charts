@@ -1,0 +1,78 @@
+div.thin_chart {
+  display: block;
+  width: 50%;
+}
+
+div.bar {
+  display: block;
+  width: 100%;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  border: 1px black solid;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+div.bar div.bar_container {
+  display: block;
+  float: left;
+  width: 80%;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+div.bar .left_figure {
+  display: block;
+  height: 100%;
+  line-height: 100%;
+  float: left;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+div.bar .right_figure {
+  display: block;
+  height: 100%;
+  line-height: 100%;
+  float: right;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+div.bar .home_stat,.away_stat {
+  display: block;
+  height: 100%;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div.bar .home_stat {
+  float: left;
+}
+
+div.bar .away_stat {
+  float: right;
+}
+
+div.bar .value {
+  display: block;
+  padding-top: 0.5em;
+}
+
+.stat_text {
+  display: none;
+}
