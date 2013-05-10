@@ -1,14 +1,55 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1em}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+body {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  display: block;
+  margin: 1em;
+}
+
+h3 {
+  display: block;
+}
+
 div.thin_chart {
   display: block;
   width: 50%;
+}
+
+div.bar_title {
+  display: block;
+  width: 100%;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 div.bar {
   display: block;
   width: 100%;
   height: 2em;
-  margin: 0;
-  padding: 0;
   border: 1px black solid;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
@@ -21,8 +62,6 @@ div.bar div.bar_container {
   float: left;
   width: 80%;
   height: 2em;
-  margin: 0;
-  padding: 0;
 }
 
 div.bar .left_figure {
@@ -31,8 +70,6 @@ div.bar .left_figure {
   line-height: 100%;
   float: left;
   width: 10%;
-  margin: 0;
-  padding: 0;
   text-align: center;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
@@ -44,8 +81,6 @@ div.bar .right_figure {
   line-height: 100%;
   float: right;
   width: 10%;
-  margin: 0;
-  padding: 0;
   text-align: center;
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
@@ -55,8 +90,6 @@ div.bar .home_stat,.away_stat {
   display: block;
   height: 100%;
   line-height: 100%;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
@@ -75,4 +108,44 @@ div.bar .value {
 
 .stat_text {
   display: none;
+}
+
+.stats {
+  margin-left: 1em;
+}
+
+div.statwrapper {
+  width: 600px;
+  margin-bottom: 2em;
+}
+
+div.statwrapper ul {
+  list-style: none;
+  display: block;
+}
+
+li.homeText {
+  clear: none;
+  float: left;
+}
+
+li.awayText {
+  clear: none;
+  text-align: right;
+  float: right;
+}
+
+.awaystat {
+  width: 600px;
+  height: 25px;
+  border: 1px solid #000;
+}
+
+.homestat {
+  height: 25px;
+  border-right: 1px solid #000;
+}
+
+li {
+  list-style: none;
 }

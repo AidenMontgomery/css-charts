@@ -5,9 +5,9 @@
   </head>
   <body>
     <section>
-      <h1>This is my chart</h1>
+      <h1>Bar chart</h1>
       <div>
-        <h2>Goals</h2>
+        <div class="bar_title">Goals</div>
         <div class="bar" style="background-color:blue;">
           <span class="left_figure" style="background-color:red;">
             <span class="value">10</span>
@@ -24,6 +24,7 @@
             <span class="value">10</span>
           </span>
         </div>
+        <div class="bar_title">Shots</div>
         <div class="bar" style="background-color:blue;">
           <span class="left_figure" style="background-color:red;">
             <span class="value">0</span>
@@ -43,10 +44,10 @@
       </div>
     </section>
     <section>
-      <h1>This is my contained chart</h1>
+      <h1>Contained bar chart</h1>
       <div>
-        <h2>Goals</h2>
         <div class="thin_chart">
+          <div class="bar_title">Goals</div>
           <div class="bar" style="background-color:blue;">
             <span class="left_figure" style="background-color:red;">
               <span class="value">10</span>
@@ -63,6 +64,7 @@
               <span class="value">10</span>
             </span>
           </div>
+          <div class="bar_title">Shots</div>
           <div class="bar" style="background-color:blue;">
             <span class="left_figure" style="background-color:red;">
               <span class="value">0</span>
@@ -79,6 +81,31 @@
               <span class="value">10</span>
             </span>
           </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1>Another bar chart</h1>
+      <div class="stats">
+        <div id="onTarget" class="statwrapper">
+          <h3>Shots On Target</h3>
+          <div class="awaystat" style="background-color: rgb(29, 48, 174);">
+            <div style="width: 57.89473684210527%; background-color: rgb(244, 68, 26); color: rgb(0, 0, 0);" class="homestat"></div>
+          </div>
+          <ul>
+            <li class="homeText">11</li>
+            <li class="awayText">8</li>
+          </ul>
+        </div>
+        <div id="offTarget" class="statwrapper">
+          <h3>Shots Off Target</h3>
+          <div class="awaystat" style="background-color: rgb(29, 48, 174);">
+            <div style="width: 25%; background-color: rgb(244, 68, 26); color: rgb(0, 0, 0);" class="homestat"></div>
+          </div>
+          <ul>
+            <li class="homeText">2</li>
+            <li class="awayText">6</li>
+          </ul>
         </div>
       </div>
     </section>
